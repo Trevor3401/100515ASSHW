@@ -1,0 +1,114 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: #4B535A;
+}
+#stickyheader {
+width: 100%;
+height: 160px;
+position: fixed;
+bottom-border: 3px solid #fff;
+z-index: 900;
+background-color: #4B535A;	
+}
+#stickyheader h1 {
+color: #fff;
+font-family: arial;
+text-transform: uppercase;
+letter-spacing: 5px;
+text-align: center;
+margin: 20px 0px;
+}
+#topnavigation {
+height: 30px;
+width: 100%;
+text-align: center;
+margin-top: 50px;
+padding: 10px 0px;
+border-top: 2px solid #fff;
+border-bottom:2px solid #fff;
+line-height: 170%;
+text-transform: uppercase;
+}
+#topnavigation a {
+color: #fff;
+display: inline;
+font-family: arial;	
+margin: 0px 30px;
+text-decoration: none;
+}
+#topnavigation a:hover {
+opacity: 0.4;
+filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+#imagegallery {
+width: 100%;
+height: 100%;
+z-index: 0;
+position: absolute;
+margin: 0 auto;
+top: 201px;	
+}
+.galleryspace {
+width: 100%;
+height: 100%;
+position: relative;
+padding-bottom: 50px;
+background-color: #fff;
+}
+#mountains {
+color: #fff;
+height: 30px;
+font-family: arial;
+font-size: 16px;
+text-align: center;
+border-top: 3px solid #000;
+border-bottom:3px solid #000;
+padding: 7px 0px;
+display:block;
+z-index:100;
+position: relative;
+background-color: #000026;
+}
+#beach {
+color: #fff;
+height: 30px;
+font-family: arial;
+font-size: 16px;
+text-align: center;
+border-top: 3px solid #000;
+border-bottom:3px solid #000;
+padding: 7px 0px;
+display:block;
+z-index:100;
+position: relative;
+background-color: #000026;
+}
+#space {
+color: #fff;
+height: 30px;
+font-family: arial;
+font-size: 16px;
+text-align: center;
+border-top: 3px solid #000;
+border-bottom:3px solid #000;
+padding: 7px 0px;
+display:block;
+z-index:100;
+position: relative;
+background-color: #000026;
+}
+.gallery {
+float: left;
+width: 475px;
+height:312px;
+position: relative;
+z-index: 10;
+}
+.gallery:hover {
+background-color: #fff;
+opacity: 0.4;
+filter: alpha(opacity=40); /* For IE8 and earlier */	
+}

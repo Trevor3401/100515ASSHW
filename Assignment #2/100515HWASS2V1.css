@@ -1,0 +1,101 @@
+* {
+margin: 0;
+padding: 0;
+}
+#twocolumnpage {
+width: 100%;
+margin: 0 auto;	
+position: absolute;
+}
+#titlepage {
+width: 100%;
+border-bottom: 5px solid #000;
+padding-bottom: 15px;
+background-color: #ccc;
+position: fixed;
+z-index: 900;
+}
+#titlepage h1 {
+font-family: georgia;
+font-size: 50px;
+color: #000;
+text-transform: uppercase;	
+text-align: center;
+margin: 15px 0px;
+}
+#titlepage p {
+font-family: georgia;
+font-size: 12px;
+color: #000;
+text-align: center;
+padding: 0px 5px;	
+}
+#titlepage span {
+border-left: 1px solid #808080;
+border-right: 1px solid #808080;
+padding: 0px 5px;
+}
+#colwrap {
+width: 1080px;
+top:130px;
+position: relative;
+margin: 10px auto;	
+font-family: arial;	
+font-size: 14px;
+position: relative;
+
+}
+#col {
+width: 300px;
+float: left;
+margin: 10px 15px;	
+}
+#col:nth-child(2){
+border-left: 1px solid #808080;
+padding: 0px 20px;
+}
+#col:nth-child(3){
+border-left: 1px solid #808080;
+padding: 0px 20px;
+}
+.article {
+border-bottom: 1px solid #808080;
+margin: 10px 0px;	
+}
+#col .article h1 {
+font-family: gotham-medium;	
+margin: 10px 0px;
+}
+h1 {
+font-size: 30x;
+color: #000;
+transition: color 0.5s ease;
+}
+h1:hover {
+color: #F00;
+}
+#socialmediabuttons {
+position: fixed;
+float:left;
+width: 110px;
+height: 50px;
+z-index: 999;
+bottom:10px;
+left: 10px;
+}
+.images img {
+height: 50px;
+width: 50px;
+}
+.images:hover {
+background-color: #fff;
+opacity: 0.35;
+filter: alpha(opacity=35); /* For IE8 and earlier */	
+}
+img {
+	width: 300px;
+}
+img:hover {
+transition: color 0.5s ease;
+background-color: #fff;
+}
